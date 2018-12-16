@@ -1,0 +1,35 @@
+body {
+	color: white;
+}
+
+h1 {
+	color: white;
+	font-family: impact;
+	font-sze: 300%;
+}
+
+h2 {
+	color: white;
+}
+
+#text {
+	color: white;
+}
+
+#Section {
+	border: 1px solid white;
+	margin: 20px;
+}
+
+#Profile_Pic {
+	margin: 20px;
+}
+
+#Name {
+	margin: 20px;
+}
+
+#overlay {
+	margin-left: 200px;
+	margin-right: 200px;
+}
