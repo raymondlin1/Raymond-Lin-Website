@@ -12,6 +12,18 @@ h2 {
 	color: white;
 }
 
+.nav_bar {
+	background-color: black;
+	font-family: Lucida Sans Unicode;
+	text-align: center;
+}
+
+.nav_bar a {
+	color: #f2f2f2;
+	padding: 20px 30px;
+	text-align: center;
+}
+
 #text {
 	color: white;
 }
