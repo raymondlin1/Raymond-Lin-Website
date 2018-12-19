@@ -28,8 +28,13 @@ h2 {
 	background-color: rgb(115, 115, 115);
 }
 
-.Name {
+.name {
 	margin: 20px;
+}
+
+.welcome_msg {
+	margin: 20px;
+	font-family: Lucida Sans Unicode;
 }
 
 .text {
