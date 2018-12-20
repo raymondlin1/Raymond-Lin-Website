@@ -1,5 +1,6 @@
 body {
 	color: white;
+	background-size: cover;
 }
 
 h1 {
@@ -32,31 +33,82 @@ h2 {
 	background-color: rgb(115, 115, 115);
 }
 
-.name {
-	margin: 20px;
-}
-
-.welcome_msg {
-	margin: 20px;
-	font-family: Lucida Sans Unicode;
-}
-
 .text {
 	color: white;
 	font-family: Lucida Sans Unicode;
 }
 
-#Section {
-	border: 1px solid white;
-	margin: 20px;
+.header {
+	text-align: left;
+}
+
+.wrapper {
+	padding: 0 3% 3%;
+}
+
+#edu_table {
+	table-layout: auto;
+	width: 100%;
+}
+
+#section_1 {
+	margin-bottom: 3%;
+	float: right;
+}
+
+#section_2 {
+
+}
+
+#section_3 {
+	//float: left;
 }
 
 #Profile_Pic {
-	margin: 20px;
+	float: left;
+	margin-right: 5%;
 }
 
 #overlay {
 	margin-left: 15%;
 	width: 70%;
 	padding-bottom: 20px;
+}
+
+#bio {
+	padding: 0 10%;
+}
+
+#email_form {
+	margin-top: 3%;
+}
+
+input[type=text], textarea {
+	width: 97%;
+	padding: 1%;
+	background-color: rgb(153, 153, 153);
+	border: none;
+	font-family: Lucida Sans Unicode;
+	color: white;
+}
+
+input[type=submit] {
+	border: none;
+	font-family: Lucida Sans Unicode;
+}
+
+input[type=submit]:hover {
+	background-color: rgb(0, 204, 0);
+}
+
+#input_name::-webkit-input-placeholder {
+	color: white;
+}
+
+#input_subject::-webkit-input-placeholder {
+	color: white;
+}
+
+#input_message::-webkit-input-placeholder {
+	color: white;
 }

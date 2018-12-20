@@ -17,7 +17,29 @@
 			<a class="text" href="http://htmlpreview.github.com/?https://github.com/raymondlin1/Raymond-Lin-Website/blob/master/contact.html">Contact</a>
 		</div>
 
-		<h1 class="name">Projects</h1>
+		<div class="wrapper">
+			<h1 class="name">Projects</h1>
+			<div class="text">
+				Here are some of the projects I've worked on the past couple of years.
+			</div>
+
+			<div class="text">
+				<h3 class="text">NachenBlaster</h3>
+				NachenBlaster is a 2D Space-Invader-Style video game that I implemented for a school project. We were given a game engine, graphics and some starter header files that included functions that we had to implement. The game engine called a function, move(), many times within a certain time period in order to update the game. 
+				<br/>
+				<br/>
+				A header file contained all of the possible game objects that derived from a single actor class. Each game object has different properties, such as movement speed, movement direction and patterns, health etc...
+				<br/>
+				<br/>
+				Each game object was derived from a single class. Then, each sub class inherited properties of the base class, but also added functionality specific to the particular class. For example, enemies and collectables were collidable, player projectiles could damage enemies but not the player himself or collectables, enemy projectiles could damage the player but not collectables and other enemies etc... 
+				<br/>
+				<br/>
+				A game world class was used to keep track of all objects in the game, including the player, enemy aliens, moving stars in the background, and collectables. The game world class included a vector of game objects that could be added or destroyed based on the behavior of the game.
+				<br/>
+				<br/>
+				<a href="https://github.com/raymondlin1/CS32-Introduction-to-Computer-Science-II/tree/master/Project%203%20-%20NachenBlaster" style="text-decoration: none">NachenBlaster Repo</a>
+			</div>
+		</div>
 	</div>
 </body>
 
