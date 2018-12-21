@@ -76,7 +76,7 @@ h2 {
 }
 
 #bio {
-	padding: 0 10%;
+	overflow: hidden;
 }
 
 #email_form {
