@@ -25,30 +25,111 @@
 			</div>
 
 			<div class="text">
-				<h3 class="text">NachenBlaster  <button class="button" onclick="location.href='https://github.com/raymondlin1/CS32-Introduction-to-Computer-Science-II/tree/master/Project%203%20-%20NachenBlaster'"><i class='fab fa-github' id="github_icon"></i></button></h3>
-				<img src="https://i.imgur.com/fSrYJh4.png" style="height: 400px; width: 600px; float: left">
+				<table style="table-layout: fixed; width: 100%">
+					<tr>
+						<td>
+							<h3>Roll A Ball  <button class="button" onclick="location.href='https://github.com/raymondlin1/Unity-Tutorials/tree/master/Roll%20A%20Ball'"><i class='fab fa-github' id="github_icon"></i></button></h3>
+						</td>
+						<td style="float: right; margin: 20px 30px 0 0">
+							<b>August, 2018</b>
+						</td>
+					</tr>
+				</table>
+				
+				<img src="https://i.imgur.com/tXCbyex.png" style="height: 30%; width: 50%; float: left">
 
-				<div style="display: table-cell; padding-left: 30px;">
-					NachenBlaster is a 2D Space-Invader-Style video game that I implemented for a school project. We were given a game engine, graphics and some starter header files that included functions that we had to implement. The game engine called a function, move(), many times within a certain time period in order to update the game. 
-					<br/>
-					<br/>
-					A header file contained all of the possible game objects that derived from a single actor class. Each game object has different properties, such as movement speed, movement direction and patterns, health etc...
-					<br/>
-					<br/>
-					Each game object was derived from a single class. Then, each sub class inherited properties of the base class, but also added functionality specific to the particular class. For example, enemies and collectables were collidable, player projectiles could damage enemies but not the player himself or collectables, enemy projectiles could damage the player but not collectables and other enemies etc... 
-					<br/>
-					<br/>
-					A game world class was used to keep track of all objects in the game, including the player, enemy aliens, moving stars in the background, and collectables. The game world class included a vector of game objects that could be added or destroyed based on the behavior of the game.
-					<br/>
-					<br/>
+				<table style="margin-bottom: 30px">
+					<tr>
+						<td>
+							<div class="description" id="rollaball_desc">
+								Roll-A-Ball is a simple Unity game. The player controls the directions of the ball using the arrow keys. Once all the objects are collected, the user wins. This simple Unity game was completed by following the steps in 
+								<a href="https://unity3d.com/learn/tutorials/s/roll-ball-tutorial" style="color: white">this guide</a>.
+								<br/>
+								<br/>
+							</div>
+						</td>
+					</tr>
+				</table>
 
-					<button id="readmore_but" onclick="readmore_toggle()">Read More</button>
-				</div>
+				<table style="table-layout: fixed; width: 100%">
+					<tr>
+						<td>
+							<h3>NachenBlaster  <button class="button" onclick="location.href='https://github.com/raymondlin1/CS32-Introduction-to-Computer-Science-II/tree/master/Project%203%20-%20NachenBlaster'"><i class='fab fa-github' id="github_icon"></i></button></h3>
+						</td>
+						<td style="float: right; margin: 20px 30px 0 0">
+							<b>February, 2018</b>
+						</td>
+					</tr>
+				</table>
+				
+				<img src="https://i.imgur.com/fSrYJh4.png" style="height: 30%; width: 50%; float: left">
+
+				<table>
+					<tr>
+						<td>
+							<div class="description" id="nachen_desc">
+								NachenBlaster is a 2D Space-Invader-Style video game that I implemented for a school project. We were given a game engine, graphics and some starter header files that included functions that we had to implement. The game engine called a function, move(), many times within a certain time period in order to update the game. 
+								<br/>
+								<br/>
+								A header file contained all of the possible game objects that derived from a single actor class. Each game object has different properties, such as movement speed, movement direction and patterns, health etc...
+								<br/>
+								<br/>
+								Each game object was derived from a single class. Then, each sub class inherited properties of the base class, but also added functionality specific to the particular class. For example, enemies and collectables were collidable, player projectiles could damage enemies but not the player himself or collectables, enemy projectiles could damage the player but not collectables and other enemies etc... 
+								<br/>
+								<br/>
+								A game world class was used to keep track of all objects in the game, including the player, enemy aliens, moving stars in the background, and collectables. The game world class included a vector of game objects that could be added or destroyed based on the behavior of the game.
+								<br/>
+								<br/>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button class="readmore" id="readmore_but_nachen" class="text" style="margin-left: 25px; border: none; background: transparent;" onclick="read_more('readmore_but_nachen', 'nachen_desc')">Read More</button>
+						</td>
+					</tr>
+				</table>
+
+				<table style="table-layout: fixed; width: 100%">
+					<tr>
+						<td>
+							<h3>Cracked  <button class="button" onclick="location.href='https://github.com/raymondlin1/CS32-Introduction-to-Computer-Science-II/tree/master/Project%204%20-%20Cracked'"><i class='fab fa-github' id="github_icon"></i></button></h3>
+						</td>
+						<td style="float: right; margin: 20px 30px 0 0">
+							<b>February, 2018</b>
+						</td>
+					</tr>
+				</table>
+				
+				<img src="https://imgur.com/0pSq4xb.jpg" style="height: 30%; width: 50%; float: left">
+
+				<table>
+					<tr>
+						<td>
+							<div class="description" id="cracked_desc">
+								Cracked is a decoder for trivially encrypted message. We were given a message that was trivially encoded. Each character in the message string was XOR'd with the integer 42, to produce another string of characters. My task was to implement a program that finds all the possible decodings of the message, given a dictionary of English words that were considered valid. 
+								<br/>
+								<br/>
+								The method of depth first search was used to find decodings. First, a tokenizer class was used in order to separate each encrypted word, and each word was placed in a vector. Then, for each encrypted word, we found English dictionary words that followed the same pattern and updated the current mapping in another translator class. Each new mapping was pushed onto the stack. This class included a vector stack of mappings from character to character. If there are conflicting mappings between characters, then we know the current mapping to be incorrect. We popped the mapping and used depth first search in order to look for a new correct mapping based on another English word that fit the pattern. 
+								<br/>
+								<br/>
+								Once we find a valid mapping, another class was called in order to decrypt the message and print it out to the screen. We then continued to find more valid mappings. 
+								<br/>
+								<br/>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button class="readmore" id="readmore_but_cracked" style="margin-left: 25px; border: none; background: transparent;" onclick="read_more('readmore_but_cracked', 'cracked_desc')">Read More</button>
+						</td>
+					</tr>
+				</table>
 			</div>
 		</div>
 	</div>
 
-	<script src="script.js"></script>
+	<script src="scripts.js"></script>
 </body>
 
 </html>

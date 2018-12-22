@@ -87,10 +87,6 @@ h2 {
 	padding-bottom: 20px;
 }
 
-#bio {
-	overflow: hidden;
-}
-
 #github_icon:hover {
 	-ms-transform: scale(1.25); 
 	-webkit-transform: scale(1.25); 
@@ -99,6 +95,27 @@ h2 {
 
 #email_form {
 	margin-top: 3%;
+}
+
+.description {
+	display: block;
+	overflow: hidden;
+	height: 200px;
+	padding-left: 30px;
+
+}
+
+.readmore {
+	font-family: Lucida Sans Unicode;
+	color: grey;
+}
+
+.readmore:hover {
+	-ms-transform: scale(1.25); 
+	-webkit-transform: scale(1.25); 
+	transform: scale(1.25);
+	cursor: pointer;
+	text-decoration: underline;
 }
 
 input[type=text], textarea {
