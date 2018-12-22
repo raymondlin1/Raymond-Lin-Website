@@ -90,6 +90,12 @@ h2 {
 	overflow: hidden;
 }
 
+#github_icon:hover {
+	-ms-transform: scale(1.25); 
+	-webkit-transform: scale(1.25); 
+	transform: scale(1.25);
+}
+
 #email_form {
 	margin-top: 3%;
 }
