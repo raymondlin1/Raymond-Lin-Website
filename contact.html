@@ -26,47 +26,33 @@
 				</div>
 				<hr>
 				<h2>Links</h2>
-				<p class="text">	
-					<table>
+				<div class="text">	
+					<table style="display: fixed; width: 100%; text-align: center">
 						<tr>
 							<td>
-								<button class="button" onclick="location.href='https://linkedin.com/in/raymond-l-126652123'"><i id="github_icon" class="fab fa-linkedin"></i><br/><font size="1">LinkedIn</font></button>
+								<button class="button" onclick="location.href='https://linkedin.com/in/raymond-l-126652123'">
+									<i id="github_icon" class="fab fa-linkedin"></i><br/>
+									<font size="3" style="font-family: Lucida Sans Unicode;">LinkedIn</font>
+								</button>
 							</td>
 							<td>
-								<button class="button" onclick="location.href='https://github.com/raymondlin1'"><i id="github_icon" class="fab fa-github"></i><br/><font size="1">Github</font></button>
+								<button class="button" onclick="location.href='https://github.com/raymondlin1'">
+									<i id="github_icon" class="fab fa-github"></i><br/>
+									<font size="3" style="font-family: Lucida Sans Unicode;">Github</font>
+								</button>
+							</td>
+							<td>
+								<button class="button" onclick="location.href='mailto: raymond.lin0226@gmail.com'">
+									<i id="github_icon" class="fa fa-envelope"></i><br/>
+									<font size="3" style="font-family: Lucida Sans Unicode;">Email</font>
+								</button>
 							</td>
 						</tr>
 					</table>
-				</p>
-
-				<hr>
-				<div id="email_form">
-					<h2>Send a Message</h2>
-					<form>
-						<label style="margin: 1% 0" for="input_name">Name</label>
-						<br/>
-						<input style="margin: 1% 0" type="text" id="input_name" name="name" placeholder="Enter your name here..">
-						<br/>
-						<label style="margin: 1% 0" for="input_email">Your Email</label>
-						<br/>
-						<input style="margin: 1% 0" type="text" id="input_email" name="email" placeholder="Enter your email address here..">
-						<br/>
-						<label style="margin: 1% 0" for="input_subject">Subject</label>
-						<br/>
-						<input style="margin: 1% 0" type="text" id="input_subject" name="subject" placeholder="Enter subject of inquiry..">
-						<br/>
-						<label style="margin: 1% 0" for="input_message">Message</label>
-						<br/>
-						<textarea style="margin: 1% 0" id="input_message" name="message" placeholder="Write message here.." rows="6"></textarea>
-						<br/>
-						<input style="margin: 1% 0" name="submit" type="submit" value="Send">
-					</form>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<?php include 'email.php';?>
 </body>
 
 </html>
