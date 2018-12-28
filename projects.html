@@ -23,7 +23,7 @@
 			<div class="text">
 				Here are some of the projects I've worked on the past couple of years.
 			</div>
-
+			<hr>
 			<div class="text">
 				<table style="table-layout: fixed; width: 100%">
 					<tr>
@@ -50,7 +50,7 @@
 						</td>
 					</tr>
 				</table>
-
+				<hr>
 				<table style="table-layout: fixed; width: 100%">
 					<tr>
 						<td>
@@ -63,7 +63,6 @@
 				</table>
 				
 				<img src="https://i.imgur.com/fSrYJh4.png" style="height: 30%; width: 50%; float: left">
-
 				<table>
 					<tr>
 						<td>
@@ -89,7 +88,7 @@
 						</td>
 					</tr>
 				</table>
-
+				<hr>
 				<table style="table-layout: fixed; width: 100%">
 					<tr>
 						<td>
@@ -107,7 +106,7 @@
 					<tr>
 						<td>
 							<div class="description" id="cracked_desc">
-								Cracked is a decoder for trivially encrypted message. We were given a message that was trivially encoded. Each character in the message string was XOR'd with the integer 42, to produce another string of characters. My task was to implement a program that finds all the possible decodings of the message, given a dictionary of English words that were considered valid. 
+								Cracked is a decoder for trivially encrypted message. We were given a message that was trivially encoded. Each character in the message string was XOR'd with the integer 42, to produce another string of characters. My task was to implement a program that finds all the possible decodings of the message, given a dictionary of valid English words. 
 								<br/>
 								<br/>
 								The method of depth first search was used to find decodings. First, a tokenizer class was used in order to separate each encrypted word, and each word was placed in a vector. Then, for each encrypted word, we found English dictionary words that followed the same pattern and updated the current mapping in another translator class. Each new mapping was pushed onto the stack. This class included a vector stack of mappings from character to character. If there are conflicting mappings between characters, then we know the current mapping to be incorrect. We popped the mapping and used depth first search in order to look for a new correct mapping based on another English word that fit the pattern. 

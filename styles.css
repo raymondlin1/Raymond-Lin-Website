@@ -38,6 +38,7 @@ h2, h3 {
 .text {
 	color: white;
 	font-family: Lucida Sans Unicode;
+	font-size: 15px;
 }
 
 .header {
@@ -66,10 +67,6 @@ h2, h3 {
 #section_1 {
 	margin-bottom: 3%;
 	float: right;
-}
-
-#section_2 {
-
 }
 
 #section_3 {
