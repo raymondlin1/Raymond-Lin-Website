@@ -12,6 +12,6 @@ function read_more(inbutton, description) {
 	{
 		button.innerHTML = "Read More";
 		text.style.display = "block";
-		text.style.height = "200px";
+		text.style.height = "230px";
 	}
 }
