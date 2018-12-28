@@ -43,6 +43,10 @@
 						<br/>
 						<input style="margin: 1% 0" type="text" id="input_name" name="name" placeholder="Enter your name here..">
 						<br/>
+						<label style="margin: 1% 0" for="input_email">Your Email</label>
+						<br/>
+						<input style="margin: 1% 0" type="text" id="input_email" name="email" placeholder="Enter your email address here..">
+						<br/>
 						<label style="margin: 1% 0" for="input_subject">Subject</label>
 						<br/>
 						<input style="margin: 1% 0" type="text" id="input_subject" name="subject" placeholder="Enter subject of inquiry..">
@@ -51,12 +55,14 @@
 						<br/>
 						<textarea style="margin: 1% 0" id="input_message" name="message" placeholder="Write message here.." rows="6"></textarea>
 						<br/>
-						<input style="margin: 1% 0" type="submit" value="Send">
+						<input style="margin: 1% 0" name="submit" type="submit" value="Send">
 					</form>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<?php include 'email.php';?>
 </body>
 
 </html>

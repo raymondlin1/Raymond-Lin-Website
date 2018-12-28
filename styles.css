@@ -10,8 +10,9 @@ h1 {
 	font-size: 300%;
 }
 
-h2 {
+h2, h3 {
 	color: white;
+	font-family: Lucida Sans Unicode;
 }
 
 .nav_bar {
@@ -134,16 +135,4 @@ input[type=submit] {
 
 input[type=submit]:hover {
 	background-color: rgb(0, 204, 0);
-}
-
-#input_name::-webkit-input-placeholder {
-	color: white;
-}
-
-#input_subject::-webkit-input-placeholder {
-	color: white;
-}
-
-#input_message::-webkit-input-placeholder {
-	color: white;
 }
