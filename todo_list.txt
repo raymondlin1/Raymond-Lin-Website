@@ -1,3 +1,4 @@
-1. make it so that images can be enlarged in new window
-2. put black background cards under post/section
-3. add calisthenics to workout section
+1. make it so that images can be enlarged in pop up
+2. add calisthenics to workout section
+3. add custom PC to tech section
+4. add pages for each individual piece of tech
