@@ -34,22 +34,31 @@
 		<div class="text">
 			<h2>News Feed</h2>
 			<hr>
-				<table style="display: fixed; width: 100%">
-					<tr>
-						<td><h3>Happy 2019!</h3></td>
-						<td style="text-align: right">2nd January, 2019</td>
-					</tr>
-					<tr>
-						<td width="40%">
-							<video style="width:100%; padding: 20px 5px 20px 0" controls>
-								<source src="https://raymondlin1.github.io/Raymond-Lin-Website/pics_and_vids/porter.mp4" type="video/mp4">
-							</video>
-						</td>
-						<td style="padding-left: 30px">
+
+			<table style="display: fixed; width: 100%">
+				<tr>
+					<td><h3>Happy 2019!</h3></td>
+					<td style="text-align: right">2nd January, 2019</td>
+				</tr>
+			</table>
+			<video style="width:40%; padding: 20px 5px 20px 0; float: left" controls>
+				<source src="https://raymondlin1.github.io/Raymond-Lin-Website/pics_and_vids/porter.mp4" type="video/mp4">
+			</video>
+			<table>
+				<tr>
+					<td>
+						<div class="description" id="omfg_desc">
 							Happy 2019 everyone! 2018 was an eventful year full of ups and downs. I got my first girlfriend in July, and we have been together happily for almost 6 months now! I have gained many new skills for my career, including large-scale programming projects, new languages (C, Python, HTML/CSS), and other tools (Unity, Git). I have also learned a lot about academic rigor at UCLA by earning my first C in a class - a new years resolution of mine is to work harder in school and dedicate more time to studying. I have recently taken up a hobby of attending music festivals! To wrap up the year, I attended OMFG! in San Diego, CA, featuring some artists that I have been wanting to see for a long time, such as Porter Robinson. 
-						</td>
-					</tr>
-				</table>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button class="readmore" id="readmore_but_omfg" class="text" style="margin-left: 25px; border: none; background: transparent;" onclick="read_more('readmore_but_omfg', 'omfg_desc')">Read More</button>
+					</td>
+				</tr>
+			</table>
+
 			<hr>
 				<table style="display: fixed; width: 100%">
 					<tr>
@@ -70,5 +79,6 @@
 	</div>
 	
 </div>
+	<script src="scripts.js"></script>
 </body>
 </html>

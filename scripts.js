@@ -5,7 +5,7 @@ function read_more(inbutton, description) {
 	if(button.innerHTML == "Read More")
 	{
 		button.innerHTML = "Read Less";
-		text.style.display = "auto";
+		//text.style.display = "auto";
 		text.style.height = "auto";
 	}
 	else

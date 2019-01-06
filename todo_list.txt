@@ -2,3 +2,4 @@
 2. add calisthenics to workout section
 3. add custom PC to tech section
 4. add pages for each individual piece of tech
+5. make posts expandable
