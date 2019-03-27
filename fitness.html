@@ -38,7 +38,14 @@
 
 						<h3>1. Chests</h3>
 						<div style="display: flex; margin-bottom: 40px">
-							<img src="https://i.imgur.com/5yFmbwq.jpg" style="width: 38%; height: 20%; float: left">
+							<button style="background: transparent; border: none; float: left; " onclick="enlarge_image('modal_chests', 'chests', 'modal_chests_image', 0)">
+								<img class="image" id="chests" src="https://i.imgur.com/5yFmbwq.jpg" style="height: 230px; width: 410px;">
+							</button>
+							<div class="modal" id="modal_chests">
+								<span class="close">&times;</span>
+								<img class="modal-content" id="modal_chests_image">
+							</div>
+
 							<table style="padding-left: 20px; padding-right: 20px; float: right; display: fixed; width: 62%">
 								<tr style="text-align: left">
 									<th style="width: 45%">Exercise</th>
@@ -75,7 +82,14 @@
 						
 						<h3>2. Triceps</h3>
 						<div style="display: flex; margin-bottom: 40px">
-							<img src="https://i.imgur.com/nAwHo5j.png" style="width: 38%; height: 20%; float: left">
+							<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_triceps', 'triceps', 'modal_triceps_image', 1)">
+								<img class="image" id="triceps" src="https://i.imgur.com/nAwHo5j.png" style="height: 230px; width: 410px;">
+							</button>
+							<div class="modal" id="modal_triceps">
+								<span class="close">&times;</span>
+								<img class="modal-content" id="modal_triceps_image">
+							</div>
+
 							<table style="padding-left: 20px; padding-right: 20px; float: right; display: fixed; width: 62%">
 								<tr style="text-align: left">
 									<th style="width: 45%">Exercise</th>
@@ -106,7 +120,14 @@
 
 						<h3>3. Shoulders</h3>
 						<div style="display: flex; margin-bottom: 60px">
-							<img src="https://i.imgur.com/HxHNPaY.png" style="width: 38%; height: 20%; float: left">
+							<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_shoulders', 'shoulders', 'modal_shoulders_image', 2)">
+								<img class="image" id="shoulders" src="https://i.imgur.com/HxHNPaY.png" style="height: 230px; width: 410px;">
+							</button>
+							<div class="modal" id="modal_shoulders">
+								<span class="close">&times;</span>
+								<img class="modal-content" id="modal_shoulders_image">
+							</div>
+
 							<table style="padding-left: 20px; padding-right: 20px; float: right; display: fixed; width: 62%">
 								<tr style="text-align: left">
 									<th style="width: 45%">Exercise</th>
@@ -150,7 +171,14 @@
 
 						<h3>1. Biceps</h3>
 						<div style="display: flex; margin-bottom: 40px">
-							<img src="https://i.imgur.com/zILPdd6.jpg" style="width: 38%; height: 20%; float: left">
+							<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_biceps', 'biceps', 'modal_biceps_image', 3)">
+								<img class="image" id="biceps" src="https://i.imgur.com/zILPdd6.jpg" style="height: 230px; width: 410px;">
+							</button>
+							<div class="modal" id="modal_biceps">
+								<span class="close">&times;</span>
+								<img class="modal-content" id="modal_biceps_image">
+							</div>
+
 							<table style="padding-left: 20px; padding-right: 20px; float: right; display: fixed; width: 62%">
 								<tr style="text-align: left">
 									<th style="width: 45%">Exercise</th>
@@ -187,7 +215,14 @@
 
 						<h3>2. Back</h3>
 						<div style="display: flex; margin-bottom: 60px">
-							<img src="https://i.imgur.com/vVtJgJk.jpg" style="width: 38%; height: 20%; float: left">
+							<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_back', 'back', 'modal_back_image', 4)">
+								<img class="image" id="back" src="https://i.imgur.com/vVtJgJk.jpg" style="height: 230px; width: 410px;">
+							</button>
+							<div class="modal" id="modal_back">
+								<span class="close">&times;</span>
+								<img class="modal-content" id="modal_back_image">
+							</div>
+
 							<table style="padding-left: 20px; padding-right: 20px; float: right; display: fixed; width: 62%">
 								<tr style="text-align: left">
 									<th style="width: 45%">Exercise</th>
@@ -226,45 +261,52 @@
 					<h2 style="margin-bottom: 0; padding-bottom: 0">Legs</h2>
 					I usually combine push and pull for legs into one workout. (because cmon, who likes legs?)
 					<div style="display: flex; margin-bottom: 60px; margin-top: 20px">
-						<img src="https://i.imgur.com/EAXGfCT.jpg" style="width: 38%; height: 20%; float: left">
-							<table style="padding-left: 20px; padding-right: 20px; float: right; display: fixed; width: 62%">
-								<tr style="text-align: left">
-									<th style="width: 45%">Exercise</th>
-									<th style="width: 35%">Weight (lbs)</th>
-									<th style="width: 10%">Reps</th>
-									<th style="width: 10%">Sets</th>
-								</tr>
-								<tr>
-									<td>Squats</td>
-									<td>155</td>
-									<td>5-8</td>
-									<td>3-5</td> 
-								</tr>
-								<tr>
-									<td>Leg Press</td>
-									<td>230</td>
-									<td>6-8</td>
-									<td>3-4</td>
-								</tr>								
-								<tr>
-									<td>Leg Extensions</td>
-									<td>150</td>
-									<td>6-8</td>
-									<td>3-4</td>
-								</tr>
-								<tr>
-									<td>Dumbbell Calf Raises</td>
-									<td>30 (per dumbbell)</td>
-									<td>6-8</td>
-									<td>3-4</td>
-								</tr>
-								<tr>
-									<td>Dumbbell Lunges</td>
-									<td>30 (per dumbbell)</td>
-									<td>6-8</td>
-									<td>3-4</td>
-								</tr>
-							</table>
+						<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_legs', 'legs', 'modal_legs_image', 5)">
+							<img class="image" id="legs" src="https://i.imgur.com/EAXGfCT.jpg" style="height: 230px; width: 410px;">
+						</button>
+						<div class="modal" id="modal_legs">
+							<span class="close">&times;</span>
+							<img class="modal-content" id="modal_legs_image">
+						</div>
+
+						<table style="padding-left: 20px; padding-right: 20px; float: right; display: fixed; width: 62%">
+							<tr style="text-align: left">
+								<th style="width: 45%">Exercise</th>
+								<th style="width: 35%">Weight (lbs)</th>
+								<th style="width: 10%">Reps</th>
+								<th style="width: 10%">Sets</th>
+							</tr>
+							<tr>
+								<td>Squats</td>
+								<td>155</td>
+								<td>5-8</td>
+								<td>3-5</td> 
+							</tr>
+							<tr>
+								<td>Leg Press</td>
+								<td>230</td>
+								<td>6-8</td>
+								<td>3-4</td>
+							</tr>								
+							<tr>
+								<td>Leg Extensions</td>
+								<td>150</td>
+								<td>6-8</td>
+								<td>3-4</td>
+							</tr>
+							<tr>
+								<td>Dumbbell Calf Raises</td>
+								<td>30 (per dumbbell)</td>
+								<td>6-8</td>
+								<td>3-4</td>
+							</tr>
+							<tr>
+								<td>Dumbbell Lunges</td>
+								<td>30 (per dumbbell)</td>
+								<td>6-8</td>
+								<td>3-4</td>
+							</tr>
+						</table>
 					</div>
 
 					<h2 style="margin-bottom: 0; padding-bottom: 0">Core</h2>
@@ -273,7 +315,14 @@
 					</div>
 
 					<div style="display: flex">
-						<img src="https://i.imgur.com/YyXcNBs.jpg" style="width: 50%; height: 50%"> 
+						<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_core', 'core', 'modal_core_image', 6)">
+							<img class="image" id="core" src="https://i.imgur.com/YyXcNBs.jpg" style="height: 600px; width: 450px;"> 
+						</button>
+						<div class="modal" id="modal_core">
+							<span class="close">&times;</span>
+							<img class="modal-content" id="modal_core_image">
+						</div>
+
 						<div style="margin: 0 30px 30px">
 							30s: 1 exercise for upper abs
 							<br/>
@@ -330,6 +379,8 @@
 			</div>
 		</div>
 	</div>
+
+	<script src="scripts.js"></script>
 </body>
 
 </html>
