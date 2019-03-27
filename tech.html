@@ -29,7 +29,14 @@
 			<h2 style="margin-bottom: 0; padding-bottom: 0">Daily Drivers</h2>
 			<h3 style="margin: 5px 0;">Cell Phone: iPhone 7 Plus</h3>
 			<div class="text" style="display: flex; margin-bottom: 30px">
-				<img src="https://i.imgur.com/WZGBidF.jpg" style="width: 38%; height: 20%; float: left">
+				<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_iphone_7', 'iphone_7', 'modal_iphone_7_image', 0)">
+					<img id="iphone_7" class="image" src="https://i.imgur.com/WZGBidF.jpg" style="height: 230px; width: 410px;">
+				</button>
+				<div class="modal" id="modal_iphone_7">
+					<span class="close">&times;</span>
+					<img class="modal-content" id="modal_iphone_7_image">
+				</div>
+
 				<table style="display: fixed; width: 62%; padding: 0 20px">
 					<tr>
 						<td><b>Release Year</b></td>
@@ -61,7 +68,14 @@
 
 			<h3 style="margin: 5px 0;">Laptop: ASUS Zenbook UX330UA</h3>
 			<div class="text" style="display: flex; margin-bottom: 30px">
-				<img src="https://i.imgur.com/3n4xTSm.jpg" style="width: 38%; height: 20%; float: left">
+				<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_asus_zenbook', 'asus_zenbook', 'modal_asus_zenbook_image', 1)">
+					<img id="asus_zenbook" class="image" src="https://i.imgur.com/3n4xTSm.jpg" style="height: 230px; width: 410px;">
+				</button>
+				<div class="modal" id="modal_asus_zenbook">
+					<span class="close">&times;</span>
+					<img class="modal-content" id="modal_asus_zenbook_image">
+				</div>
+
 				<table style="display: fixed; width: 62%; padding: 0 20px">
 					<tr>
 						<td><b>Release Year</b></td>
@@ -93,7 +107,14 @@
 
 			<h3 style="margin: 5px 0;">PC: Custom-Built</h3>
 			<div class="text" style="display: flex; margin-bottom: 60px">
-				<img src="https://raymondlin1.github.io/Raymond-Lin-Website/pics_and_vids/placeholder.png" style="width: 38%; height: 20%; float: left">
+				<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_PC', 'PC', 'modal_PC_image', 2)">
+					<img id="PC" class="image" src="https://raymondlin1.github.io/Raymond-Lin-Website/pics_and_vids/placeholder.png" style="height: 230px; width: 410px; float: left">
+				</button>
+				<div class="modal" id="modal_PC">
+					<span class="close">&times;</span>
+					<img class="modal-content" id="modal_PC_image">
+				</div>
+
 				<table style="display: fixed; width: 62%; padding: 0 20px">
 					<tr>
 						<td><b>Release Year</b></td>
@@ -131,7 +152,14 @@
 			<h2 style="margin-bottom: 0; padding-bottom: 0">Previously Owned</h2>
 			<h3 style="margin: 5px 0;">Cell Phone: Motorola Nexus 6</h3>
 			<div class="text" style="display: flex; margin-bottom: 30px">
-				<img src="https://i.imgur.com/SFxrjcs.jpg" style="width: 38%; height: 20%; float: left">
+				<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_nexus', 'nexus', 'modal_nexus_image', 3)">
+					<img id="nexus" class="image" src="https://i.imgur.com/SFxrjcs.jpg" style="height: 230px; width: 410px;">
+				</button>
+				<div class="modal" id="modal_nexus">
+					<span class="close">&times;</span>
+					<img class="modal-content" id="modal_nexus_image">
+				</div>
+
 				<table style="display: fixed; width: 62%; padding: 0 20px">
 					<tr>
 						<td><b>Release Year</b></td>
@@ -163,7 +191,14 @@
 
 			<h3 style="margin: 5px 0;">Laptop: Lenovo Ideapad Y580</h3>
 			<div class="text" style="display: flex; margin-bottom: 30px">
-				<img src="https://i.imgur.com/uDnFzkP.png" style="width: 38%; height: 20%; float: left">
+				<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_ideapad', 'ideapad', 'modal_ideapad_image', 4)">
+					<img id="ideapad" class="image" src="https://i.imgur.com/uDnFzkP.png" style="height: 230px; width: 410px;">
+				</button>
+				<div class="modal" id="modal_ideapad">
+					<span class="close">&times;</span>
+					<img class="modal-content" id="modal_ideapad_image">
+				</div>
+
 				<table style="display: fixed; width: 62%; padding: 0 20px">
 					<tr>
 						<td><b>Release Year</b></td>
@@ -195,7 +230,14 @@
 
 			<h3 style="margin: 5px 0;">Cell Phone: LG Optimus G</h3>
 			<div class="text" style="display: flex; margin-bottom: 60px">
-				<img src="https://i.imgur.com/NR9maX7.jpg" style="width: 38%; height: 20%; float: left">
+				<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_optimus', 'optimus', 'modal_optimus_image', 5)">
+					<img class="image" id="optimus" src="https://i.imgur.com/NR9maX7.jpg" style="height: 230px; width: 410px; float: left">
+				</button>
+				<div class="modal" id="modal_optimus">
+					<span class="close">&times;</span>
+					<img class="modal-content" id="modal_optimus_image">
+				</div>
+
 				<table style="display: fixed; width: 62%; padding: 0 20px">
 					<tr>
 						<td><b>Release Year</b></td>
@@ -237,6 +279,8 @@
 			</ul>
 		</div>
 	</div>
+
+	<script src="scripts.js"></script>
 </body>
 
 </html>
