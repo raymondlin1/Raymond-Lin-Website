@@ -1,5 +1,3 @@
-fix size of images to pixels
-fix overflow issue
 add quicklinks to the top of each page
 add some news entries
 add calisthenics to workout section
