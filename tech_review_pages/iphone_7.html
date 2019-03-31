@@ -29,7 +29,13 @@
 			<table style="display: fixed; width: 100%">
 				<tr>
 					<td>
-						<img src="https://raymondlin1.github.io/Raymond-Lin-Website/pics_and_vids/iphone7plus.jpg">
+						<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_iphone_7', 'iphone_7', 'modal_iphone_7_image', 0)">
+							<img class="image" id="iphone_7" src="https://raymondlin1.github.io/Raymond-Lin-Website/pics_and_vids/iphone7plus.jpg">
+						</button>
+						<div class="modal" id="modal_iphone_7">
+							<span class="close">&times;</span>
+							<img class="modal-content" id="modal_iphone_7_image">
+						</div>
 					</td>
 					<td>
 						
@@ -38,5 +44,7 @@
 			</table>
 		</div>
 	</div>
+
+	<script src="../scripts.js"></script>
 </body>
 </html> 
