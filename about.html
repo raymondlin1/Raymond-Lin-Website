@@ -25,15 +25,39 @@
 		<div class="wrapper">
 			<div class="text" id="section_1">	
 				<h1 class="name">About Me</h1>
-				<div style="padding-bottom: 3%;">
+				<div style="padding-bottom: 2%;">
 					My name is Raymond Lin, and I am a second-year Computer Science major at UCLA. Here on my website, you will find my academic profile, as well as my personal blog and interests. Some of my hobbies include working on personal programming projects, watching tech review videos, going to music festivals, going to the gym, and investing in stocks.
 				</div>
+
+				<h2 class="name" style="padding-bottom: 0px">Quick Links</h2>
+				<ul class="quick_link">
+					<li>
+						<a href="#bio_block">Bio</a>
+					</li>
+					<li>
+						<a href="#edu_background_block">Educational Background</a>
+					</li>
+					<li>
+						<a href="#rel_coursework_block">Relevant Coursework</a>
+					</li>
+					<li>
+						<a href="#sum_skills_block">Summary of Skills</a>
+					</li>
+				</ul>
+
 				<hr>
 				<div style="margin-bottom: 20px">
-					<table>
+					<table id="bio_block">
 						<tr>
 							<td>
-								<img title="image" id="Profile_Pic" src="https://i.imgur.com/9XvHM7w.png" width="293" height="270" style="padding-bottom: 30px">
+								<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_profile_pic', 'profile_pic', 'modal_profile_pic_image', 0)">
+									<img class="image" title="image" id="profile_pic" src="https://i.imgur.com/9XvHM7w.png" width="293" height="270" style="padding-bottom: 30px">
+								</button>
+								<div class="modal" id="modal_profile_pic">
+									<span class="close">&times;</span>
+									<img class="modal-content" id="modal_profile_pic_image">
+								</div>
+
 								<div style="text-align: center">
 									Resume
 									<button class="button" id="github_icon" onclick="location.href='https://raymondlin1.github.io/Raymond-Lin-Website/Resume.pdf'" style="font-size: 24px"><i class="far fa-file-alt"></i></button>
@@ -48,7 +72,7 @@
 				</div>	
 			</div>
 			<hr>
-			<div id="section_3" style="margin-bottom: 40px">
+			<div id="edu_background_block" style="margin-bottom: 40px">
 				<h2>Educational Background</h2>
 				<table id="edu_table" class="text">
 					<tr>
@@ -78,7 +102,7 @@
 				</table>
 			</div>
 			<hr>
-			<div id="section_4" class="text" style="padding-bottom: 30px">
+			<div id="rel_coursework_block" class="text" style="padding-bottom: 30px">
 				<h2>Relevant Coursework</h2>
 				<div style="padding-bottom: 30px">
 					<font size="4" style="line-height: 0"><button class="button" onclick="location.href='https://github.com/raymondlin1/CS111-Operating-Systems'" style="font-size: 24px"><i class='fab fa-github' id="github_icon"></i></button><b>CS111 - Operating Systems</b></font>
@@ -118,7 +142,7 @@
 				</div>
 			</div>
 			<hr>
-			<div id="section_5" class="text">
+			<div id="sum_skills_block" class="text">
 				<h2>Summary of Skills</h2>
 				<h3 style="margin-bottom: 3px">Programming/Scripting Languages</h3>
 				<table style="table-layout: fixed">
@@ -246,5 +270,7 @@
 			</div>
 		</div>
 	</div>
+
+	<script src="scripts.js"></script>
 </body>
 </html>

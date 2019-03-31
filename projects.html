@@ -25,6 +25,7 @@
 			<div class="text">
 				Here are some of the projects I've worked on the past couple of years.
 			</div>
+			
 			<hr>
 			<div class="text" style="width: 100%">
 				<table style="table-layout: fixed; width: 100%">
@@ -38,7 +39,13 @@
 					</tr>
 				</table>
 				
-				<img src="https://i.imgur.com/LZgrHpK.jpg" style="height: 230px; float: left">
+				<button style="background: transparent; border: none; float: left;" onclick="enlarge_image('modal_2D_rogue', '2D_rogue', 'modal_2D_rogue_image', 0)">
+					<img id="2D_rogue" class="image" src="https://i.imgur.com/LZgrHpK.jpg" style="height: 230px;">
+				</button>
+				<div class="modal" id="modal_2D_rogue">
+					<span class="close">&times;</span>
+					<img class="modal-content" id="modal_2D_rogue_image">
+				</div>
 
 				<table style="margin-bottom: 30px">
 					<tr>
@@ -69,7 +76,13 @@
 					</tr>
 				</table>
 				
-				<img src="https://i.imgur.com/tXCbyex.png" style="height: 230px; float: left">
+				<button style="background: transparent; border: none; float: left" onclick="enlarge_image('modal_roll', 'roll', 'modal_roll_image', 1)">
+					<img id="roll" class="image" src="https://i.imgur.com/tXCbyex.png" style="height: 230px;">
+				</button>
+				<div class="modal" id="modal_roll">
+					<span class="close">&times;</span>
+					<img class="modal-content" id="modal_roll_image">
+				</div>
 
 				<table style="margin-bottom: 30px">
 					<tr>
@@ -100,7 +113,14 @@
 					</tr>
 				</table>
 				
-				<img src="https://i.imgur.com/fSrYJh4.png" style="height: 230px; width: 40%; float: left">
+				<button style="background: transparent; border: none; float: left" onclick="enlarge_image('modal_nachen', 'nachen', 'modal_nachen_image', 2)">
+					<img id="nachen" class="image" src="https://i.imgur.com/fSrYJh4.png" style="height: 230px; width: 410px;">
+				</button>
+				<div class="modal" id="modal_nachen">
+					<span class="close">&times;</span>
+					<img class="modal-content" id="modal_nachen_image">
+				</div>
+
 				<table>
 					<tr>
 						<td>
@@ -143,7 +163,13 @@
 					</tr>
 				</table>
 				
-				<img src="https://imgur.com/0pSq4xb.jpg" style="height: 230px; float: left">
+				<button style="background: transparent; float: left; border: none" onclick="enlarge_image('modal_cracked', 'cracked', 'modal_cracked_image', 3)">
+					<img class="image" id="cracked" src="https://imgur.com/0pSq4xb.jpg" style="height: 230px; width: 410px;">
+				</button>
+				<div class="modal" id="modal_cracked">
+					<span class="close">&times;</span>
+					<img class="modal-content" id="modal_cracked_image">
+				</div>
 
 				<table>
 					<tr>
