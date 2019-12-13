@@ -32,14 +32,18 @@ function enlarge_image(in_modal, in_image, in_modal_image, num) {
 	}
 }
 
-var read_more_but = document.getElementById("readmore_but_omfg");
-var omfg_desc = document.getElementById("omfg_desc");
-var omfg_vid = document.getElementById("omfg_video");
-if(omfg_desc.scrollHeight > omfg_desc.clientHeight)
+var descriptions = document.getElementsByClassName("description");
+for(var i in descriptions)
 {
-	read_more_but.style.display = "block";
-}
-else
-{
-	read_more_but.style.display = "none";
+	console.log(descriptions[i]);
+	var read_more_but = document.getElementById("readmore_but_" + descriptions[i].id.replace("_desc", ""));
+	var desc = document.getElementById(descriptions[i].id);
+	if(desc.scrollHeight > desc.clientHeight)
+	{
+		read_more_but.style.display = "block";
+	}
+	else
+	{
+		read_more_but.style.display = "none";
+	}
 }
