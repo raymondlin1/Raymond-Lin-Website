@@ -3,6 +3,7 @@ body {
 	background-size: 100% auto;
 	background-repeat: repeat-y;
 	background-attachment: fixed;
+	margin: 0;
 }
 
 h1 {
@@ -17,9 +18,10 @@ h2, h3 {
 }
 
 .nav_bar {
+	width: inherit;
+	position: fixed;
 	display: flex;
 	justify-content: center;
-	margin: 0 auto;
 	background-color: black;
 	color: black;
 	font-family: Lucida Sans Unicode;
@@ -27,13 +29,14 @@ h2, h3 {
 
 .nav_bar a {
 	flex-grow: 1;
-	padding: 0px 36px;
+	padding: 5px 36px;
 	text-align: center;
 	text-decoration: none;
 }
 
 .nav_bar a:hover {
 	background-color: rgb(115, 115, 115);
+	text-decoration: none;
 }
 
 .text {
